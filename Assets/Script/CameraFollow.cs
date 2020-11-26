@@ -21,6 +21,7 @@ public class CameraFollow : MonoBehaviour
         curHeight = transform.position.y;
         currentHeight.text = ("Heights Reached: " + curHeight.ToString());
         highScore = curHeight;
+        //this is throwing a null reference exception, I don't understand why, it is also functioning exactly as I want it to. So I'm at a loss here.
         scores.ScoreUpdate();
     }
     // Update is called once per frame
